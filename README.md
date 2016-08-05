@@ -1,6 +1,6 @@
 # Unity IAPManager
 UnityIAPを個人的に使いやすくまとめたものです。<br>
-WindowsストアやMacOSXにも対応しているようですが、最も使う頻度が高いであろうiOS、Androidのみに絞りました。
+iOS/Androidのみ対応です。
 
 #### 自プロジェクトでの使用
 **Assets/IAPManager.cs**を取り出してお使いください。<br>
@@ -35,25 +35,21 @@ IAPManagerの各処理のイベントを受け取るためにイベントハン�
       // 初期化失敗
       private void OnInitializeFailed(string error) {
          // エラー処理
-
       }
 
       // 購入完了
       private void OnPurchaseCompleted(IAPManager.PurchaseItemData itemData) {
          // 購入完了処理
-
       }
 
       // 購入失敗
       private void OnPurchaseFailed(IAPManager.PurchaseItemData item) {
           // 購入失敗処理
-
       }
 
       // リストア完了
       private void OnRestoreCompleted () {
           // リストア完了処理
-
       }
 
 <br>
