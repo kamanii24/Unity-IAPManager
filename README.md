@@ -11,7 +11,8 @@ IAPManagerを使用するために*Window>Service*からIn-App Purchasingを有�
 
 #### アイテム情報の登録
 IAPManagerを空のGameObjectにアタッチし、Inspectorで各ストアアイテムの情報を登録します。<br>
-iOSとAndroid二つの項目が用意されているのでそれぞれ入力します。
+iOSとAndroid二つの項目が用意されているのでそれぞれ入力します。<br>
+![unity-iapmanager_1.png](https://dl.dropboxusercontent.com/u/91930162/github/img/unity-iapmanager_1.png)
 
 <br>
 #### イベントハンドラの設定
