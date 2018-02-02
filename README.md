@@ -3,7 +3,7 @@ UnityIAPを個人的に使いやすくまとめたものです。<br>
 iOS/Androidのみ対応です。
 
 #### 自プロジェクトでの使用
-**Assets/IAPManager.cs**を取り出してお使いください。<br>
+同封の**Unity-IAPManager.unitypackage**をそのままインポートするだけです。<br>
 IAPManagerを使用するために*Window>Service*からIn-App Purchasingを有効にし、UnityIAPパッケージをインポートしてください。
 
 <br>
@@ -12,7 +12,7 @@ IAPManagerを使用するために*Window>Service*からIn-App Purchasingを有�
 #### アイテム情報の登録
 IAPManagerを空のGameObjectにアタッチし、Inspectorで各ストアアイテムの情報を登録します。<br>
 iOSとAndroid二つの項目が用意されているのでそれぞれ入力します。<br>
-![unity-iapmanager_1.png](https://dl.dropboxusercontent.com/u/91930162/github/img/unity-iapmanager_1.png)
+![Imgur](https://i.imgur.com/frU9CWR.png)
 
 <br>
 #### イベントハンドラの設定
@@ -74,11 +74,6 @@ IAPManagerクラスのPurchaseクラスにアイテムのindexを引数として
       }
 
 <br>
-## リリースノート
-####- 2016/8/4
-* **v1.0.0 公開**<br>
-
-<br>
 ## ビルド環境
-Unity 5.4.0f3<br>
-MacOSX El Capitan 10.11.5
+Unity 2017.3.0p3<br>
+macOS High Sierra 10.13.3
