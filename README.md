@@ -4,17 +4,16 @@ iOS/Androidのみ対応です。
 
 #### 自プロジェクトでの使用
 同封の**Unity-IAPManager.unitypackage**をそのままインポートするだけです。<br>
-IAPManagerを使用するために*Window>Service*からIn-App Purchasingを有効にし、UnityIAPパッケージをインポートしてください。
+IAPManagerを使用するために*Window>Service*からIn-App Purchasingを有効にし、UnityIAPパッケージをインポートしてください。<br>
 
-<br>
 # 使い方
 
 #### アイテム情報の登録
 IAPManagerを空のGameObjectにアタッチし、Inspectorで各ストアアイテムの情報を登録します。<br>
 iOSとAndroid二つの項目が用意されているのでそれぞれ入力します。<br>
 ![Imgur](https://i.imgur.com/frU9CWR.png)
-
 <br>
+
 #### イベントハンドラの設定
 IAPManagerの各処理のイベントを受け取るためにイベントハンドラを設定します。
 
@@ -52,7 +51,7 @@ IAPManagerの各処理のイベントを受け取るためにイベントハン�
           // リストア完了処理
       }
 
-<br>
+
 #### 購入処理
 IAPManagerクラスのPurchaseクラスにアイテムのindexを引数として渡します。
 
@@ -62,7 +61,7 @@ IAPManagerクラスのPurchaseクラスにアイテムのindexを引数として
           iapManager.Purchase (itemIndex);
       }
 
-<br>
+
 #### リストア(iOSのみ)
 購入済みのアイテムを復元します。<br>
 復元されたアイテム情報は*OnPurchaseCompletedEvent*にて受け取ります。
@@ -73,7 +72,7 @@ IAPManagerクラスのPurchaseクラスにアイテムのindexを引数として
           iapManager.Restore ();
       }
 
-<br>
+
 ## ビルド環境
 Unity 2017.3.0p3<br>
 macOS High Sierra 10.13.3
